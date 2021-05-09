@@ -15,8 +15,7 @@ steps:
     versionSpec: '10.x'
   displayName: 'Install Node.js'
 
-- script: |
-    npm install -g @angular/cli
-    npm install
+- script: 
+    cd /home/ec2-user/devmedia
     ng build 
   displayName: 'npm install and build'
